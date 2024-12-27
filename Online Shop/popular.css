@@ -1,0 +1,145 @@
+.welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    background-image: url(donwloads/popular\ welcome\ image.jpg);
+
+}
+
+.welcome h1{
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+.welcome img{
+    width: 200px;
+    height: 200px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    row-gap: 10px;
+    position: fixed;
+    right: 0;
+    top: 300px;
+    background-image: url(donwloads/nav\ image.jfif);
+    border-radius: 10px;
+    height: 75%;
+}
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 25px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.search img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+body{
+    font: 1em sans-serif;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.search input{
+    border-radius: 5px;
+    border: 2px solid aqua;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    background-image: url(donwloads/wrapper\ page.jfif);
+}
+
+.Smartphones , .laptops , .VR , .TV {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 25px;
+    background-image: url(donwloads/card\ image.webp);
+
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+}
+
+.card button{
+    background-color: white;
+    border: 2px solid aqua;
+    border-radius: 25%;
+}
+
+.card button:hover{
+    cursor: pointer;
+}
+
+hr{
+    background-color: black;
+    height: 10px;
+    border-radius: 5px;
+    width: 75%;
+}
+
+footer{
+    bottom: o;
+    background-color: aqua;
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    color: aliceblue;
+    font-weight: bold;
+    background-image: url(donwloads/footer\ image.webp);
+}
